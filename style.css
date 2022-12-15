@@ -1,31 +1,31 @@
 *{
-    box-sizing: border-box; /*genişilik ve yüksekliği sabit kılmak için içerikteki*/
+    box-sizing: border-box; 
 
 }
 body{
 margin:0;
 padding:0;
 background-color: gray;
-font-family: sans-serif; /*mesela başlık kısmında üsttüte altta boşuk olmasın tam otursun diye dedik.*/
+font-family: sans-serif; 
 }
 #social{
     background-color: black;
     color:white;
     height: 55px;
-    width: 100%; /* tüm genişliği soldan sağa kaplasın*/
-    position: sticky; /* yukarda bu bar kalıcak yapışcak aşağı kaydırsak bile sayfayı yukarda görüncek.*/
+    width: 100%; 
+    position: sticky; 
     top:0;
-    z-index:1;/*saydaki başka bir içeriğin bunun üstüne çıkmaması için verdik1 diye.*/
+    z-index:1;
     font-size:18px;
     text-align: center;
-    padding: 15px; /*iç boşluğu barın her yönden 15 oldu*/
+    padding: 15px; 
     
 }
 #container{
 
 width:80%;
 height: auto;
-margin:auto; /*kendi kendinin yüksekliğpi ve genişliğini ayarlasın*/
+margin:auto; 
 }
 header{
     width: 100%;
@@ -56,7 +56,7 @@ section{
     height: auto;
     background-color: white;
     margin-top: 10px;
-    overflow: auto; /*navı sectionın içine sığdırmak için böyle dedik*/
+    overflow: auto; 
 }
 nav{
     width:20%;
@@ -71,15 +71,15 @@ nav ul{
     padding: 0;
 }
 nav li{
-    list-style-type: none; /*başındaki noktaları kaldırdık*/
+    list-style-type: none; 
 
 }
 nav li a{
-    text-decoration: none; /*altındaki çizgiyi kaldırdık*/
-    line-height: 50px; /*satırlar arası yüksekliği belkirlemek için kullanılıyo*/
+    text-decoration: none; 
+    line-height: 50px; 
     height: 50px;
     color: black;
-    border-bottom: 1px solid black; /*çerçeve verdik çevresine*/
+    border-bottom: 1px solid black; 
     padding-left: 20px;
     display: block;
 }
